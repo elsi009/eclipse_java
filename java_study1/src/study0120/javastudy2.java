@@ -26,6 +26,9 @@ public class javastudy2 {
 		// 1. 입력 객체 생성
 		// 2. 입력 객체를 통해 데이터에 맞는 입력메서드 호출
 		Scanner input = new Scanner(System.in);
+		//num 이라는 변수에 정ㅅ우 데이터 입력하여 저장하기
+		//nextInt() 가 정수 데이터 입력하기 위한 메서드이다.
+		int num = input.nextInt();
 	}
 
 }
