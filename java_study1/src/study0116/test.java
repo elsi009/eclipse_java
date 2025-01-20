@@ -3,24 +3,39 @@ package study0116;
 public class test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		/*
-		 *  여러줄 주석 
-		 *  저장 단축키 - ctrl + s
-		 *  주석 단축키 - ctrl + /
-		 *  실행 단축키 - ctrl + F11
-		 */
-		System.out.println("자바 이클립스 테스트");
 		
-		// 정수 : int, byte, short, long
-		// 실수 : float , double
-		// 문자 : char
-		// 논리 : boolean
-		int age;
-		age = 100; 
-		age = 27;
-		age = '가'; // 자바에서 ''표현은 문자를 의미
-				   // "" 표현은 문자열을 의미
+		
+		int blue = 20;
+		int red = 15;
+		int white = 0;
+		
+		white = blue;
+		blue = red;
+		red = white;
+		System.out.println(blue);
+		System.out.println(red);
+		
+		int birthYear = 1991;
+		System.out.println(2025-birthYear);
+		
+		float fnum = 2.156f;
+		// 자바에서는 실수 뒤에 f붙여야함
+		
+		char ch = 'a';
+		System.out.println(ch);
+		
+		ch = 'H';
+		System.out.println(ch - 'A');
+		
+		
+		String name= "홍길동";
+		System.out.println(name);
+		
+		// 문자열은 String , 문자는 char 
+		
+		boolean isApple = true;
+		
+		
 	}
 
 }
