@@ -17,15 +17,15 @@ public class study0203_3 {
 		int user = sc.nextInt();
 		int num = (int)(Math.random()*3+1);
 		System.out.println(num);
-		if((user==1&&num==1) || (user==2&& num==2) || (user==3&&num==3)) {
+		if(user==num) {
 			System.out.println("비겼습니다");
 		} else if((user==1&&num==2) || (user==2&&num==3) || (user==3 && num==1))
-		{
-			System.out.println("졌습니다");
+		{ 
+			System.out.println("졌습니다");                                
 		}
 		else
 		{
-			System.out.println("이겼습니다");
+			System.out.println("이겼습니다");                                 
 		}
 	}
 
